@@ -1,0 +1,258 @@
+.space {
+  margin-top: 20px;
+}
+.top-footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 10px;
+  .logo1 {
+    width: 25%;
+    height: 95%;
+    padding: 0px 16px;
+    & img {
+      width: 195px;
+      height: 30px;
+      object-fit: cover;
+      margin: auto;
+    }
+  }
+}
+.contact {
+  padding: 10px 0;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.information span {
+  margin-left: 20px;
+  font-size: 14px;
+}
+.phone-number {
+  font-weight: bold;
+}
+.support-hours {
+  color: #666;
+}
+.footer {
+  padding: 20px;
+  text-align: right;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.feature {
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section {
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.footer-section h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+.footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.fa-brands {
+  font-size: 50px;
+  color: var(--Grey-Web);
+  cursor: pointer;
+}
+.newsletter {
+  margin-top: 20px;
+}
+.newsletter input[type="email"] {
+  padding: 5px;
+  width: 200px;
+}
+.newsletter button {
+  padding: 5px 10px;
+  background-color: #ef394e;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.app-download-banner {
+  background-color: #2b3e5e;
+  padding: 12px 40px;      /* 12px top/bottom, 40px left/right */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.app-download-text {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  & img{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+  }
+}
+
+.download-options {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.download-option {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  gap: 8px;
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.download-option img {
+  width: 24px;
+  height: 24px;
+}
+
+
+.store-info {
+  
+  margin: 0 auto;
+  padding: 24px;
+  position: relative;
+}
+
+.store-info-title {
+  color: #444;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.store-info-text {
+  color: #666;
+  line-height: 1.8;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-bottom: 16px;
+}
+
+.trust-symbols {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  display: flex;
+  gap: 16px;
+}
+
+.trust-symbol {
+  width: 106px;
+  height: 106px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-symbol img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.read-more {
+  color: #19bfd3;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+
+.footer-container {
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  padding: 24px;
+  background-color: var(--bg-snowflake);
+}
+
+.footer-logos {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.logo-row-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.footer-logo img {
+  max-width: 130px;
+  height: auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.footer-logo:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+
+.diginext img { width: 120px; }
+.digikalamehr img { width: 130px; }
+.digikala-jet img { width: 110px; }
+.digiclub img { width: 100px; }
+.digistyle img { width: 120px; }
+.digipay img { width: 110px; }
+.digikalamag img { width: 120px; }
+.digikala-business img { width: 140px; }
+.smartech img { width: 120px; }
+.digify img { width: 100px; }
+.ganje img { width: 90px; }
+.digiexpress img { width: 120px; }
+.plus img { width: 80px; }

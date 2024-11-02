@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IranYekan;
+
+}
+.wraper{
+    width: 100%;
+}
+@font-face {
+    font-family: IranYekan;
+    src: url('../fonts/IRANYekanWeb-Medium.eot');
+    src: url('../fonts/IRANYekanWeb-Medium.ttf');
+    src: url('../fonts/IRANYekanWeb-Medium.woff');
+    src: url('../fonts/IRANYekanWeb-Medium.woff2');
+}
+:root{
+    --bg-Gunmetal-Gray: #81858b;
+    --bg-snowflake: #f0f0f1;
+    --WindChime: #e0e0e2;
+    --Grey-Web: #62666d;
+    --Genie: #3f4064;
+
+
+}
+.line{
+    width: 1px;
+    height: 24px;
+    display: block;
+    background-color: var(--WindChime);
+}

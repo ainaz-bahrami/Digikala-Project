@@ -1,0 +1,214 @@
+.mini-banner {
+  width: 100%;
+  height: 64px;
+  background-color: #ef4056;
+  background-image: url(https://www.digikala.com/statics/img/svg/amazing/header.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.gap2 {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.gapsecondpage {
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.custom-banner {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: ltr;
+}
+
+.custom-green-banner {
+  background-color: #f1f8f4;
+}
+
+.custom-purple-banner {
+  background-color: #800080;
+  color: white;
+}
+
+.custom-banner-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  direction: rtl;
+}
+
+.custom-text {
+  font-size: 16px;
+  font-weight: bold;
+  color: green;
+}
+
+.custom-products {
+  display: flex;
+  gap: 10px;
+}
+
+.custom-products img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.custom-discount {
+  background-color: #24a137;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.custom-text-discount {
+  background-color: greenyellow;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.custom-exclusive-access {
+  background-color: #b333cc;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.container-2 {
+  display: flex;
+  max-width: 1400px;
+  margin: 20px auto;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.filters {
+  width: 280px;
+  background: whitesmoke;
+  border-radius: 8px;
+  padding: 16px;
+  height: 80vh;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.filter-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 60px;
+  color: #666;
+}
+
+.products-grid {
+  flex: 1;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  position: relative;
+}
+
+.product-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.product-title {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ef394e;
+  text-align: right;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #ef394e;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 12px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  justify-content: flex-end;
+  margin-top: 8px;
+  color: #f9bc00;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.sort-options {
+  display: flex;
+  gap: 16px;
+  color: #666;
+}
+
+.sort-option {
+  cursor: pointer;
+}
+
+.sort-option.active {
+  color: #ef394e;
+}
+
+.filter-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+}
